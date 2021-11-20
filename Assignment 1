@@ -49,19 +49,48 @@ Ans. Supervised Learning.
 
 12.What's the difference between a model parameter and a hyperparameter in a learning
 algorithm?
+Ans. Model parameters are estimated based on the data during model training and model hyperparameters 
+are set manually and are used in processes to help estimate model parameters. Model hyperparameters are 
+often referred to as parameters because they are the parts of the machine learning that must be set 
+manually and tuned.
 
 13.What are the criteria that model-based learning algorithms look for? What is the most popular
 method they use to achieve success? What method do they use to make predictions?
-
+Ans.  Criterias of model-based learning algorithms are: Interpretability, The number of data points and 
+features, Data format, Linearity of data, Training time, Prediction time and Memory requirements.
+      Most popular method machine learning models use to achieve success is feeding quality data to the
+machine learning models.
+      Machine learning models use regression and classification models to make predictions.
+ 
 14.Can you name four of the most important Machine Learning challenges?
+Ans. Most important machine learning challenges are: Poor Quality of Data, Underfitting of Training Data,
+Overfitting of Training Data, Machine Learning is a Complex Process, Lack of Training Data, Slow 
+Implementation, Imperfections in the Algorithm When Data Grows etc.
 
 15.What happens if the model performs well on the training data but fails to generalize the results
 to new situations? Can you think of three different options?
+Ans. Options that can be performed well on the training data but fails to generalize the results to new
+situations are: 
+i) Feed good quality data
+ii) Change the algorithm
+iii) Proper data preparation
 
 16.What exactly is a test set, and why would you need one?
-
-17.What is a validation set&#39;s purpose?
+Ans. A test set in machine learning is a secondary (or tertiary) data set that is used to test a machine 
+learning program after it has been trained on an initial training data set.
+     It is needed to check if the machine learning model generalize well.
+     
+17.What is a validation set's purpose?
+Ans. A validation set is a set of data used to train model with the goal of finding and optimizing the 
+best model to solve a given problem. Validation sets are used to select and tune the final model.
 
 18.What precisely is the train-dev kit, when will you need it, how do you put it to use?
+Ans.  Training Data helping learning process to instantiate models. 
+      The goal of dev-set is to rank the models in term of their accuracy and helps us decide which model to 
+proceed further with. 
+      Using Dev set we rank all our models in terms of their accuracy and pick the best performing model.
 
 19.What could go wrong if you use the test set to tune hyperparameters?
+Ans.  If test set is used to tune hyperparameters then the model will not generalize well then the model's
+performance will be very good for the test data but it may not perform well when it will see some unseen
+data.
