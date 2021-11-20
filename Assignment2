@@ -1,0 +1,108 @@
+1. What is the concept of human learning? Please give two examples.
+Ans. Learning is an active process of appropriation (making one's own) of knowledge, abilities and skills 
+in order to enhance the personal or collective control potential (competence) of shaping reality in a given 
+context or situation. Example: Learning alphbets and using alphabets to write pargraph, Riding cycle etc.
+
+2. What different forms of human learning are there? Are there any machine learning equivalents?
+Ans. The three major types of learning described by behavioral psychology are classical conditioning, 
+operant conditioning, and observational learning.
+      Humans acquire knowledge through experience either directly or shared by others. Machines acquire 
+knowledge through experience shared in the form of past data. Although there are lot of differences between
+human learning and machine learning but the basics of learning from past experience and data is equivalent.
+
+3. What is machine learning, and how does it work? What are the key responsibilities of machine
+learning?
+Ans.  Machine Learning can be defined as "Field of study that gives computers the capability to learn 
+without being explicitly programmed."
+      Machine learning is a form of artificial intelligence that teaches computers to recognize pattern 
+similar way to how humans do: Learning and improving upon past experiences. It works by exploring data 
+and identifying patterns, and involves minimal human intervention.
+
+4. Define the terms "penalty" and "reward" in the context of reinforcement learning.
+Ans. In Reinforcement Learning (RL), agents are trained on a reward and punishment mechanism. The agent 
+is rewarded for correct moves and punished for the wrong ones. In doing so, the agent tries to minimize 
+wrong moves and maximize the right ones.
+
+5. Explain the term "learning as a search"?
+Ans.  Learning can be viewed as a search through the space of all sentences in a  concept description 
+language for a sentence that best describes the data. Alternatively, it can be viewed as a search through
+all hypotheses in a hypothesis space. In either case, a generality relation usually determines the 
+structure of the search space.
+
+6. What are the various goals of machine learning? What is the relationship between these and
+human learning?
+Ans. The goal of machine learning, closely coupled with the goal of AI, is to achieve a thorough 
+understanding about the nature of learning process (both human learning and other forms of learning), 
+about the computational aspects of learning behaviors, and to implant the learning capability in 
+computer systems.
+      Human learning patterns are different from one person to another. Having a learning process 
+embedded in people’s minds can be a challenge to change. However, with Machine Learning (ML), the 
+learning method can easily be modified simply by choosing a different algorithm. As for Machine Learning, 
+having well-defined processes at our disposal allows us to understand and assess the accuracy of learning.
+Evaluating human learning is generally done via exams which are not considered as a measure of 
+intelligence. Let’s look more in detail at the difference between the human learning and machine learning
+processes.
+
+7. Illustrate the various elements of machine learning using a real-life illustration.
+Ans. The elements of machine learning using a real-life illustration is:
+i) Image which is used to learn graphical data.
+ii) Text is used to learn the pattern of paragraph.
+iii) Sound data is used to learn the sentiment and recognize the human's speech.
+iv) Other text data is used to discover relationship between different real life attributres.
+
+8. Provide an example of the abstraction method.
+Ans. An example of abstraction method is: We all use an ATM machine for cash withdrawal, money transfer, 
+retrieve min-statement, etc in our daily life. But we don't know internally what things are happening 
+inside ATM machine when you insert an ATM card for performing any kind of operation.
+
+9. What is the concept of generalization? What function does it play in the machine learning
+process?
+Ans.  Generalization refers to your model's ability to adapt properly to new, previously unseen data, 
+drawn from the same distribution as the one used to create the model.
+      A model's ability to generalize is central to the success of a model. If a model has been trained 
+too well on training data, it will be unable to generalize. It will make inaccurate predictions when 
+given new data, making the model useless even though it is able to make accurate predictions for the 
+training data.
+
+10. What is classification, exactly? What are the main distinctions between classification and regression?
+Ans. The Classification algorithm is a Supervised Learning technique that is used to identify the category 
+of new observations on the basis of training data. In Classification, a program learns from the given 
+dataset or observations and then classifies new observation into a number of classes or groups.
+     Classification predictive modeling problems are different from regression predictive modeling problems.
+Classification is the task of predicting a discrete class label. Regression is the task of predicting a 
+continuous quantity. There is some overlap between the algorithms for classification and regression; for 
+example: A classification algorithm may predict a continuous value, but the continuous value is in the 
+form of a probability for a class label. A regression algorithm may predict a discrete value, but the 
+discrete value in the form of an integer quantity. Some algorithms can be used for both classification 
+and regression with small modifications, such as decision trees and artificial neural networks. Some 
+algorithms cannot, or cannot easily be used for both problem types, such as linear regression for 
+regression predictive modeling and logistic regression for classification predictive modeling. Importantly,
+the way that we evaluate classification and regression predictions varies and does not overlap, for 
+example: Classification predictions can be evaluated using accuracy, whereas regression predictions cannot.
+Regression predictions can be evaluated using root mean squared error, whereas classification predictions 
+cannot.
+
+11. What is regression, and how does it work? Give an example of a real-world problem that was
+solved using regression.
+Ans. Regression in machine learning consists of mathematical methods that allow data scientists to predict 
+a continuous outcome (y) based on the value of one or more predictor variables (x). An example of regression
+problem is share price prediction.
+
+12. Describe the clustering mechanism in detail.
+Ans. Clustering or cluster analysis is a machine learning technique, which groups the unlabelled dataset. 
+It can be defined as "A way of grouping the data points into different clusters, consisting of similar 
+data points.
+
+13. Make brief observations on two of the following topics:
+i. Machine learning algorithms are used
+ii. Studying under supervision
+iii. Studying without supervision
+iv. Reinforcement learning is a form of learning based on positive reinforcement.
+Ans.  i) Machine Learning algorithms like Linear Regression, Polynomial Regression, SVM, KNN, Decision Tree, 
+Random Forest, KMeans, Hierical Clustering, DBScan etc.
+ii) Supervised algorithms like Linear Regression, Polynomial Regression, SVM, KNN, Decision Tree, Random 
+Forest etc,
+iii) Unsupervised algorithms like KMeans, Hierical Clustering, DBScan etc.
+iv) Reinforcement learning is a machine learning training method based on rewarding desired behaviors 
+and/or punishing undesired ones. In general, a reinforcement learning agent is able to perceive and 
+interpret its environment, take actions and learn through trial and error.
